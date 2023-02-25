@@ -13,8 +13,8 @@ class App(customtkinter.CTk):
         self.resizable(False, False)
         self.title("Головне вікно програми")
         # self.FRAME = m_frame.My_Frame(text= "Friendly Chat", master = self, width= 130, height= app_height - 20, border_width= 5)
-        self.FRAME1 = m_frame.My_Frame(text= "Friendly Chat", master = self, width= 130, height= app_height - 10, border_width= None, fg_color= None)
-        self.FRAME2 = m_frame.My_Frame(text= "Чати", master = self, width= 165, height= app_height - 10, border_width= None, fg_color= None)
+        self.FRAME1 = m_frame.My_Frame(text= "Friendly Chat", text_color= "orange", master = self, width= 130, height= app_height - 10, border_width= None, fg_color= None)
+        self.FRAME2 = m_frame.My_Frame(text= "Чати", text_color= "orange", master = self, width= 165, height= app_height - 10, border_width= None, fg_color= None)
         # self.FRAME = customtkinter.CTkFrame(master=self, width=300, height= app_height)
         
         self.FRAME1.grid(row = 0, column = 0, padx = 5, pady = 5)
